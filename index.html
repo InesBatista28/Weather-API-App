@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
+    <title>API Weather App</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" /></head>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 <body>
     
     <main class="main-container">
@@ -20,7 +21,7 @@
             </button>
         </header>
 
-        <section class="weather-info">
+        <section class="weather-info" style="display: none;">
             <div class="location-date-container">
                 <div class="location">
                     <span class="material-symbols-outlined">
@@ -87,6 +88,25 @@
 
         </section>
 
+        <section class="search-city section-message">
+            <img src="assets/message/search-city.png">
+            <div>
+                <h1>Search City</h1>
+                <h4 class="regular-txt">
+                    Find out the weather conditions of the city 
+                </h4>
+            </div>
+        </section>
+
+        <section class="not-found section-message" style="display: none;">
+            <img src="assets/message/not-found.png">
+            <div>
+                <h1>Search City</h1>
+                <h4 class="regular-txt">
+                    Find out the weather conditions of the city 
+                </h4>
+            </div>
+        </section>
     </main>
 
 </body>
