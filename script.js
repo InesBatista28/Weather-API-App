@@ -15,8 +15,6 @@ const currentDateTxt = document.querySelector('.current-date-txt')
 
 const forecastItemsContainer = document.querySelector('.forecast-items-container')
 
-const apiKey = '4a7a904749bf2a2ad5c9f60ae4aff396'
-
 searchBtn.addEventListener('click', () => {
     if (cityInput.value.trim() != '') {
         updateWeatherInfo(cityInput.value)
@@ -138,3 +136,5 @@ function showDisplaySection(section) {
     
     section.style.display = 'flex'
 }
+
+const apiKey = '4a7a904749bf2a2ad5c9f60ae4aff396'
