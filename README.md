@@ -1,6 +1,6 @@
 # Weather Forecast App
 
-A web application that allows users to search for a city and view both the **current weather conditions** and a daily forecast for the upcoming days with information such as temperature, humidity and wind speed
+A very simple web application that allows users to search for a city and view both the **current weather conditions** and a daily forecast for the upcoming days with information such as temperature, humidity and wind speed.
 
 Built with **HTML**, **CSS**, and **JavaScript**, and powered by the **OpenWeather API**.
 
